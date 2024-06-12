@@ -1,2 +1,80 @@
 saran/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+media/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Scrapy specific
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# General
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+*.log
+
+# Ignore sensitive files
+*.key
+*.pem
+
 
